@@ -10,7 +10,7 @@ public class ProductCatalog {
     }
 
     public List<Product> findallProducts() {
-        return null;
+        return new ArrayList<>();
     }
 
     public String createProduct(String productName, String productDescription) {
